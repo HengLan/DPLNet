@@ -16,8 +16,10 @@ Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained 
 
 ## Implementation
 
+The following provides our implementations for RGB-D segmentation. For other tasks, just simply change the input and the training labels. Then, you should be able to train models for other tasks.
+
 ### Requirements
-The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. However, compatibility with other versions is also likely.
+The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. It should be compatible with other versions but performance may vary slightly.
 
 ### Dataset Preparation
 NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv). # change the data root in ./RGBD/configs/nyuv2.json
